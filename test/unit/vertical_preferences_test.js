@@ -2,8 +2,8 @@
 
 /* global verticalPreferences, MockDatastore, MockNavigatorDatastore */
 
-require('/shared/test/unit/mocks/mock_navigator_datastore.js');
-require('/shared/js/homescreens/vertical_preferences.js');
+require('/shared/unit_test_mocks/mock_navigator_datastore.js');
+require('/shared/homescreens/vertical_preferences/homescreens/vertical_preferences.js');
 
 suite('vertical_preferences.js >', function() {
 

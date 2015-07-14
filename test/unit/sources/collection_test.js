@@ -1,16 +1,16 @@
 'use strict';
 /* global MockApp, App, MocksHelper, loadBodyHTML, CollectionSource */
 
-require('/shared/js/collections_database.js');
-require('/shared/js/l10n.js');
+require('/shared/collections_database/collections_database.js');
+require('/shared/l10n/l10n.js');
 require('/shared/test/unit/load_body_html_helper.js');
-require('/shared/elements/gaia_grid/js/grid_dragdrop.js');
-require('/shared/elements/gaia_grid/js/grid_icon_renderer.js');
-require('/shared/elements/gaia_grid/js/grid_layout.js');
-require('/shared/elements/gaia_grid/js/grid_view.js');
-require('/shared/elements/gaia_grid/script.js');
-require('/shared/elements/gaia_grid/js/items/grid_item.js');
-require('/shared/elements/gaia_grid/js/items/collection.js');
+require('/shared/gaia_grid/js/grid_dragdrop.js');
+require('/shared/gaia_grid/js/grid_icon_renderer.js');
+require('/shared/gaia_grid/js/grid_layout.js');
+require('/shared/gaia_grid/js/grid_view.js');
+require('/shared/gaia_grid/script.js');
+require('/shared/gaia_grid/js/items/grid_item.js');
+require('/shared/gaia_grid/js/items/collection.js');
 require('/js/sources/collection.js');
 
 require('/test/unit/mock_app.js');

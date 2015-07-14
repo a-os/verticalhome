@@ -4,7 +4,7 @@
 
 (function(exports) {
 
-  var resources = ['shared/style/input_areas.css', 'style/css/edit_group.css'];
+  var resources = ['shared/input_areas/input_areas.css', 'style/css/edit_group.css'];
   
   function GroupEditor() {
     this.container = document.getElementById('edit-group');

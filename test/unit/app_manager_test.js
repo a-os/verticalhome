@@ -1,12 +1,12 @@
 'use strict';
 /* global loadBodyHTML, MockNavigatormozApps, appManager, MockL10n */
 
-require('/shared/test/unit/mocks/mock_navigator_moz_apps.js');
-require('/shared/test/unit/mocks/mock_l10n.js');
+require('/shared/unit_test_mocks/mock_navigator_moz_apps.js');
+require('/shared/unit_test_mocks/mock_l10n.js');
 require('/shared/test/unit/load_body_html_helper.js');
-require('/shared/js/component_utils.js');
-require('/shared/elements/gaia_confirm/script.js');
-require('/shared/js/homescreens/confirm_dialog_helper.js');
+require('/shared/component_utils/component_utils.js');
+require('/shared/gaia_confirm/script.js');
+require('/shared/homescreens/confirm_dialog_helper/homescreens/confirm_dialog_helper.js');
 
 suite('app_manager.js > ', function() {
 

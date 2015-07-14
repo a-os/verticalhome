@@ -80,7 +80,7 @@ marionette('Vertical - Collection', function() {
           selectors.offlineMessage);
 
     // Collections named are stubbed in gaia properties. See:
-    // shared/locales/collection_categories/collection_categories.fr.properties
+    // shared/collection_categories/collection_categories.fr.properties
     assert.ok(offlineMessage.text().indexOf(expected) !== -1);
 
     server.unfailAll();

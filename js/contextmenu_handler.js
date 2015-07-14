@@ -25,9 +25,9 @@
           // Prevent the click when the finger is released
           e.preventDefault();
 
-          var resources = ['/shared/js/component_utils.js',
-                           '/shared/elements/gaia_buttons/script.js',
-                           '/shared/elements/gaia_menu/script.js',
+          var resources = ['/shared/component_utils/component_utils.js',
+                           '/shared/gaia_buttons/script.js',
+                           '/shared/gaia_menu/script.js',
                            'js/contextmenu_ui.js'];
           LazyLoader.load(resources, function loaded() {
             // pass the event through for processing

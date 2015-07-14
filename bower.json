@@ -1,0 +1,38 @@
+{
+  "name": "verticalhome",
+  "version": "0.0.0",
+  "homepage": "https://github.com/alivedise/verticalhome",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bookmarks_database": "git@github.com:alivedise/bookmarks_database.git#~0.0.1",
+    "collections_database": "git@github.com:alivedise/collections_database.git#~0.0.1",
+    "collection_categories": "git@github.com:alivedise/collection_categories.git#~0.0.1",
+    "component_utils": "git@github.com:alivedise/component_utils.git#~0.0.1",
+    "config": "git@github.com:alivedise/config.git#~0.0.1",
+    "gaia-icons": "git@github.com:alivedise/gaia-icons.git#~0.0.1",
+    "gaia-header": "git@github.com:alivedise/gaia-header.git#~0.0.1",
+    "gaia-theme": "git@github.com:alivedise/gaia-theme.git#~0.0.1",
+    "gaia_buttons": "git@github.com:alivedise/gaia_buttons.git#~0.0.1",
+    "gaia_confirm": "git@github.com:alivedise/gaia_confirm.git#~0.0.1",
+    "gaia_grid": "git@github.com:alivedise/gaia_grid.git#~0.0.1",
+    "gaia_menu": "git@github.com:alivedise/gaia_menu.git#~0.0.1",
+    "homescreens": "git@github.com:alivedise/homescreens.git#~0.0.1",
+    "html_imports": "git@github.com:alivedise/html_imports.git#~0.0.1",
+    "icons_helper": "git@github.com:alivedise/icons_helper.git#~0.0.1",
+    "icc_helper": "git@github.com:alivedise/icc_helper.git#~0.0.1",
+    "input_areas": "git@github.com:alivedise/input_areas.git#~0.0.1",
+    "l10n": "git@github.com:alivedise/l10n.git#~0.0.1",
+    "omadrm": "git@github.com:alivedise/omadrm.git#~0.0.1",
+    "url_helper": "git@github.com:alivedise/url_helper.git#~0.0.1",
+    "lazy_loader": "git@github.com:alivedise/lazy_loader.git#~0.0.1",
+    "version_helper": "git@github.com:alivedise/version_helper.git#~0.0.1",
+    "web_manifest_helper": "git@github.com:alivedise/web_manifest_helper.git#~0.0.1"
+  }
+}

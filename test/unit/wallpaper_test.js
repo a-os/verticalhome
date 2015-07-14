@@ -2,15 +2,15 @@
 
 /* global MocksHelper, MockMozActivity, MockNavigatorSettings, wallpaper */
 
-require('/shared/test/unit/mocks/mock_navigator_moz_settings.js');
-require('/shared/test/unit/mocks/mock_moz_activity.js');
+require('/shared/unit_test_mocks/mock_navigator_moz_settings.js');
+require('/shared/unit_test_mocks/mock_moz_activity.js');
 require('/js/wallpaper.js');
 
 var mocksHelperForWallpaper = new MocksHelper([
   'MozActivity'
 ]).init();
 
-// A simple mock for shared/js/omadrm/fl.js so we don't have to
+// A simple mock for shared/omadrm/fl/omadrm/fl.js so we don't have to
 // create a more complicated settings mock than what we already have here.
 // If I put this in suiteSetup, I get a test error for a leaking global.
 window.ForwardLock = { getKey: function(f) { f(null); } };

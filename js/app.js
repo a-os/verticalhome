@@ -94,8 +94,8 @@
           return;
         }
 
-        LazyLoader.load(['shared/js/icc_helper.js',
-                         'shared/js/version_helper.js',
+        LazyLoader.load(['shared/icc_helper/icc_helper.js',
+                         'shared/version_helper/version_helper.js',
                          'js/configurator.js'], function onLoad() {
           exports.configurator = new Configurator();
         });
@@ -119,9 +119,9 @@
         window.performance.mark('contentInteractive');
 
         window.addEventListener('localized', this.onLocalized.bind(this));
-        LazyLoader.load(['shared/elements/gaia-header/dist/gaia-header.js',
+        LazyLoader.load(['shared/gaia-header/dist/gaia-header.js',
                          'js/contextmenu_handler.js',
-                         '/shared/js/homescreens/confirm_dialog_helper.js'],
+                         '/shared/homescreens/confirm_dialog_helper/homescreens/confirm_dialog_helper.js'],
           function() {
             window.performance.mark('fullyLoaded');
           });
@@ -331,7 +331,7 @@
           // so the property is written as inline way.
           //
           // 'transform 0.25s' is from the original property in gaia-grid.
-          // ( shared/elements/gaia_grid/style.css )
+          // ( shared/gaia_grid/style.css )
           //
           // 'height 0s 0.5s' is to apply collapsing animation in edit mode.
           this.grid.style.transition = this.EDIT_MODE_TRANSITION_STYLE;
