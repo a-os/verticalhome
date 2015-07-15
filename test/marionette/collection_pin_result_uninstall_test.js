@@ -3,7 +3,7 @@
 var Bookmark = require('../../../../apps/system/test/marionette/lib/bookmark');
 var Collection = require('./lib/collection');
 var EmeServer = require(
-  '../../../../shared/test/integration/eme_server/parent');
+  '/shared/test_integration/eme_server/parent');
 
 marionette('Vertical - Collection', function() {
 

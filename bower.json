@@ -33,6 +33,7 @@
     "url_helper": "git@github.com:alivedise/url_helper.git#~0.0.1",
     "lazy_loader": "git@github.com:alivedise/lazy_loader.git#~0.0.1",
     "version_helper": "git@github.com:alivedise/version_helper.git#~0.0.1",
-    "web_manifest_helper": "git@github.com:alivedise/web_manifest_helper.git#~0.0.1"
+    "web_manifest_helper": "git@github.com:alivedise/web_manifest_helper.git#~0.0.1",
+    "test_integration": "git@github.com:alivedise/test_integration.git#~0.0.1"
   }
 }

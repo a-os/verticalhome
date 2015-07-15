@@ -4,7 +4,7 @@
 var assert = require('assert');
 
 var Bookmark = require('../../../../apps/system/test/marionette/lib/bookmark');
-var Server = require('../../../../shared/test/integration/server');
+var Server = require('/shared/test_integration/server');
 
 marionette('Vertical - Bookmark Uninstall', function() {
 

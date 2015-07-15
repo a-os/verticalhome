@@ -4,7 +4,7 @@
 
 var Rocketbar = require(
   '../../../../apps/system/test/marionette/lib/rocketbar.js');
-var Server = require('../../../../shared/test/integration/server');
+var Server = require('/shared/test_integration/server');
 
 marionette('Vertical - Search Terms: URI scheme', function() {
 

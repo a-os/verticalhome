@@ -4,7 +4,7 @@ var assert = require('assert');
 var Collection = require('./lib/collection');
 var Home = require('./lib/verticalhome');
 var EmeServer = require(
-  '../../../../shared/test/integration/eme_server/parent');
+  '/shared/test_integration/eme_server/parent');
 
 marionette('Vertical - Collection Browser', function() {
 

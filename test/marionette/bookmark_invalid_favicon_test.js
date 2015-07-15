@@ -3,7 +3,7 @@
 
 var iconSrc = require('./lib/icon_src');
 var Bookmark = require('../../../../apps/system/test/marionette/lib/bookmark');
-var Server = require('../../../../shared/test/integration/server');
+var Server = require('/shared/test_integration/server');
 
 marionette('Vertical - Bookmark Favicon Failure', function() {
 

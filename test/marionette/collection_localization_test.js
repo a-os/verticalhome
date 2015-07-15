@@ -3,7 +3,7 @@
 var assert = require('assert');
 var Collection = require('./lib/collection');
 var EmeServer = require(
-  '../../../../shared/test/integration/eme_server/parent');
+  '/shared/test_integration/eme_server/parent');
 
 marionette('Vertical - Collection', function() {
 
