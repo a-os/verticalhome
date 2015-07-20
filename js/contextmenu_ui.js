@@ -55,7 +55,7 @@
     _actions: {
       'change-wallpaper-action': function() {
         LazyLoader.load([
-          'shared/omadrm/fl/omadrm/fl.js',
+          'shared/omadrm/fl.js',
           'js/wallpaper.js'
         ], function() {
           this.hide();

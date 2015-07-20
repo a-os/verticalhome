@@ -121,7 +121,7 @@
         window.addEventListener('localized', this.onLocalized.bind(this));
         LazyLoader.load(['shared/gaia-header/dist/gaia-header.js',
                          'js/contextmenu_handler.js',
-                         '/shared/homescreens/confirm_dialog_helper/homescreens/confirm_dialog_helper.js'],
+                         '/shared/homescreens/confirm_dialog_helper.js'],
           function() {
             window.performance.mark('fullyLoaded');
           });
